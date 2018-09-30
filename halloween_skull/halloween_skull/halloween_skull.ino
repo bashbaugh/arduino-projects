@@ -26,7 +26,7 @@ void setup() {
   //digitalWrite(pir, LOW);
   servo.attach(servoPin);
   servo.write(pos);
-  delay(10000); // wait 10 seconds for the PIR to adjust to it's surroundings.
+  delay(20000); // wait 20 seconds for the PIR to adjust to it's surroundings.
   // flash one LED, to signal that the program is starting
   digitalWrite(LED1, HIGH);
   delay(500);
